@@ -1,16 +1,49 @@
-# React + Vite
+# React CRUD App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application built for practicing CRUD (Create, Read, Update, Delete) operations using Axios.
+The app fetches data from an API, displays the list of posts, and allows users to add, edit, and delete posts.
 
-Currently, two official plugins are available:
+Live Demo: https://surajgupta125.github.io/react-crud-app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## React Compiler
+Create a new post.
+Read and display all posts.
+Update/edit any existing post.
+Delete posts.
+API integration using Axios.
+Clean and responsive UI.
+Code structured in separate components.
+Uses JSONPlaceholder for demo API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Tech Stack
 
-## Expanding the ESLint configuration
+React (Vite)
+Axios
+JavaScript (ES6)
+CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JSONPlaceholder API – https://jsonplaceholder.typicode.com/posts.
+
+How CRUD Works
+1. Get Posts
+
+Data is fetched from JSONPlaceholder API and displayed.
+
+2. Add New Post
+
+User enters a title and description → data is sent to API → UI updates instantly.
+
+3. Edit Post
+
+Selected post data comes inside the input fields → user updates → UI shows updated post.
+
+Author
+
+Suraj Gupta
+BCA 3rd Year Student
+Frontend Developer (Learning & Building)
+
+4. Delete Post
+
+On delete button click, the selected post is removed from UI.
